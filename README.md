@@ -5,8 +5,8 @@ A beginner of deep learning in junior year second semester. For this project, I 
 Automatic moving machines are like autopilot, drones, or robots that are able to move automatically in house environment. The most important thing about these machines is to identify the location of the target object, and then to be able to know the distance, and move to the target object position. So I combined the object detection and depth prediction based on YOLO and FCRN to do this project.
 
 ## Demo
-1. Parameter for YOLO: https://github.com/Ching-Ju-Henry/YOLO_tensorflow (or train by yourself)
-2. Parameter for FCRN: https://github.com/iro-cp/FCRN-DepthPrediction (or train by yourself)
+1. Parameter for YOLO:  [YOLO Link](https://github.com/Ching-Ju-Henry/YOLO_tensorflow) (or train by yourself)
+2. Parameter for FCRN:  [FCRN Link](https://github.com/iro-cp/FCRN-DepthPrediction) (or train by yourself)
 3. Resize the imput image: using *resize.py* to resize the input image
 4. Object Detection Algorithm: using *YOLO_small_tf.py* to detect the object in input image
 5. Depth Prediction Algorithm: using *predict.py* to predict depth for input, and then combine it with object detection
@@ -15,7 +15,7 @@ Automatic moving machines are like autopilot, drones, or robots that are able to
 ## Result
 **1. Flow Chart**
 <center>
-<img src="./results/flow.jpg" >
+<img src="./Flow/flow.jpg" >
 <br>
 </center>
 
@@ -41,3 +41,5 @@ Automatic moving machines are like autopilot, drones, or robots that are able to
 * numpy, matplotlib, opencv, pillow
 
 ## Reference
+* I reference a lot from [YOLO](https://arxiv.org/abs/1506.02640) and [FCRN](https://arxiv.org/abs/1606.00373)
+* I also reference a lot code from [YOLO](https://github.com/gliese581gg/YOLO_tensorflow) and [FCRN](https://github.com/iro-cp/FCRN-DepthPrediction)
